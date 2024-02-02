@@ -30,12 +30,36 @@ header{
 .col{
     border:1px dashed;
     background-color:#daa520;
+    display: flex;
+    width: 25%;
+    padding: 6px;
 }
 
-.col25{
-    width: 25%;
+.colleft{
+    justify-content: flex-end;
+}
+
+.colright{
+    justify-content: flex-start;
 }
 
 .col50{
     width: 50%;
+    justify-content: center;
+}
+
+/*------
+  MAIN
+--------*/
+.blue{
+    background-color: #00008b;
+    padding: 20px 0;
+
+}
+
+.pink{
+    background-color: #ee82ee;
+    height: 300px;
+    width: 700px;
+    margin: auto;
 }
