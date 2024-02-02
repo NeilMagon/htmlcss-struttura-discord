@@ -1,5 +1,41 @@
+/*------
+  RESET
+--------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*------
+  GENERAL
+--------*/
+.container{
+    display: flex;   
+    max-width: 1180px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px 0;
+    min-height: 60px;
+    align-items: center;
+}
+
+/*------
+  HEADER
+--------*/
+header{
+    background-color: #add8e6;
+}
+
+.col{
+    border:1px dashed;
+    background-color:#daa520;
+}
+
+.col25{
+    width: 25%;
+}
+
+.col50{
+    width: 50%;
 }
