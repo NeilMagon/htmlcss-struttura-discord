@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
+    border-style: dashed;
 }
 
 /*------
@@ -57,15 +59,13 @@ header{
 
 .pink{
     background-color: #ee82ee;
-    height: 300px;
+    min-height: 300px;
     width: 700px;
     margin: auto;
-    border:2px dashed;
-    }
+}
 
 .san{
-    border:2px dashed;
-    height: 400px;
+    min-height: 400px;
     margin: 30px 0;
 }
 
@@ -86,5 +86,41 @@ header{
 .green{
     background-color: #228b22;
     width: 100%;
-    height: 700px;
+    min-height: 700px;
+}
+
+/*------
+  FOOTER
+--------*/
+
+footer{
+    background-color: #23272a;
+}
+
+.red{
+    background-color: #f08080;
+    width: 30%;
+}
+
+.column{
+    width: 70%;
+    display: flex;
+}
+
+.lightblue{
+    background-color: #20b2aa;
+    width: 25%;
+}
+
+.lightgreen{
+    background-color: #7fffd4;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.lightred{
+    background-color: #ffb6c1;
+    padding: 4px 0;
 }
